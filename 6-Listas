@@ -1,0 +1,20 @@
+// Criando listas (arrays)
+
+console.log("Trabalhando com Listas");
+
+// Na hora de declarar um array como abaixo é necessário lembrar que o array deve ser declarado com A (em maiúsculo)
+    const listaDeDestinos = new Array (
+       'Salvador',
+        'São Paulo',
+        'Rio de Janeiro',
+        'Curitiba'
+    );
+        //listaDeDestinos.push('Recife'); .push adiciona  mais item a lista depois que ela já foi declarada
+ console.log("Destinos Possíveis");
+ console.log(listaDeDestinos);
+
+// Removendo Elementos
+
+listaDeDestinos.splice(3,1);
+console.log(listaDeDestinos);
+// O .splice funcionou e um item foi removidos
