@@ -1,0 +1,9 @@
+console.log("Trabalhando com Variaveis");
+const idade= 29;
+const nome= "Victor";
+const sobrenome= "Carioca";
+
+console.log(nome+sobrenome);
+//console.log(nome+""sobrenome);
+console.log(nome,sobrenome);
+//a virgula serva para que a palavra apareça com o espaçamento entre elas (nome,sobrenome) me retorna Victor Carioca
