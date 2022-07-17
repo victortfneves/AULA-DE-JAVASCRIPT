@@ -1,0 +1,14 @@
+console.log("Trabalhando com Variaveis");
+
+idade=29
+Idade=35
+// variavel sem declaração entra no escopo global
+
+const idade= 29
+const nome= "victor"
+
+console.log(idade);
+console.log(Idade);
+console.log(nome);
+
+// a boa pratica é declarar a varivel com as palavras reservadas: const/let/var
