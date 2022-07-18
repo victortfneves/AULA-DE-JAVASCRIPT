@@ -1,0 +1,57 @@
+// USANDO O FOR
+console.log("Trabalhando com Loops");
+const listaDeDestinos = new Array (
+    'Salvador',
+     'São Paulo',
+     'Rio de Janeiro',
+     'Curitiba'
+ );
+    const idadeComprador= 18
+    const estaAcompanhada = false;
+    let temPassagemComprada = false;
+    const destino = "Nova York" 
+
+console.log("\n Destinos Possíveis");
+console.log(listaDeDestinos);
+
+const podeComprar = idadeComprador >=18 || estaAcompanhada == true;
+let contador = 0;
+let destinoExiste = false;
+while(contador<3){
+    if(listaDeDestinos[contador] == destino){
+        console.log("Destino Existe");
+        destinoExiste = true;
+        break;
+    } else{
+        console.log("Destino não Existe");
+    }
+    contador += 1
+}
+console.log("Destino Existe:", destinoExiste);
+if(podeComprar && destinoExiste){
+    console.log("Boa Viagem");
+} else{
+    console.log("Desculpe pelo Transtorno");
+}
+
+// USANDO O FOR PARA P LOOP
+
+for( let contador = 0;contador < 3;contador ++){
+    if(listaDeDestinos[contador] == destino){
+        console.log("Destino Existe");
+        destinoExiste = true;
+        break;
+    } else{
+        console.log("Destino não Existe");
+    }
+}
+// PODEMOS TAMBEM USAR O INCREMENTO (i) NO LUGAR DA CONSTANTE IGUAL O MODO ABAIXO
+or( let i = 0; i < 3; i ++){
+    if(listaDeDestinos[contador] == destino){
+        console.log("Destino Existe");
+        destinoExiste = true;
+        break;
+    } else{
+        console.log("Destino não Existe");
+    }
+}
